@@ -27,12 +27,11 @@ public class Main {
 
         //use the information and fill in the structure to build that needed data then add it to the arraylist.
         myLakeInfo.lakeName = lakeName;
-        myLakeInfo.lakeTime = lakeTime;
+        myLakeInfo.lakeTimes.add(lakeTime);
 
         if (lakeExistYN(lakes,lakeName) == false){
             lakes.add(myLakeInfo); //if the new
         }
-
 
     }
 
