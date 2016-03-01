@@ -23,6 +23,6 @@ public class LakeStructure {
                 timer = lakeTimes.get(x);
             }
         }
-        return lakeName + "," + timer + ".";
+        return lakeName + ", " + timer + ".";
     }
 }
