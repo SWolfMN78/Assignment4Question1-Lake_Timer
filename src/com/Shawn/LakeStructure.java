@@ -19,7 +19,7 @@ public class LakeStructure {
         double timer = 999999999;
         //pass back the best time around the lake(s).
         for (int x = 0; x < lakeTimes.size(); x++){
-            if (lakeTimes.get(x) < timer){
+            if (lakeTimes.get(x).doubleValue() < timer){
                 timer = lakeTimes.get(x);
             }
         }
